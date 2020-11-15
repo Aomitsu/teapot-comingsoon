@@ -11,8 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23f268f-b2fe-45b2-a99a-d5857f661121" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -63,7 +61,7 @@
       <updated>1605471065961</updated>
       <workItem from="1605471066989" duration="2076000" />
       <workItem from="1605473145818" duration="1108000" />
-      <workItem from="1605475488934" duration="550000" />
+      <workItem from="1605475488934" duration="738000" />
     </task>
     <task id="LOCAL-00001" summary="files">
       <created>1605473159787</created>
@@ -79,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605473977017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Teapot Song&#10;3 times in subtitle">
+      <created>1605476062471</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605476062471</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Teapot Song">
+      <created>1605476074743</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605476074743</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,16 +112,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="files" />
     <MESSAGE value="Open Graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Open Graph" />
+    <MESSAGE value="Teapot Song&#10;3 times in subtitle" />
+    <MESSAGE value="Teapot Song" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teapot Song" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605473982038">
+    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605476079072">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017@0.27.1920.1017" timestamp="1605473982038" />
-    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605475559396">
+    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017@0.27.1920.1017" timestamp="1605476079072" />
+    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605476177878">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1017@0.27.1920.1017" timestamp="1605475559396" />
+    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1017@0.27.1920.1017" timestamp="1605476177878" />
   </component>
 </project>

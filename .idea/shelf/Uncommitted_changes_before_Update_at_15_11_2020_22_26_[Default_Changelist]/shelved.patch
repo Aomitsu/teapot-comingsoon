@@ -1,0 +1,106 @@
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>html, body {\n    margin: 0;\n    padding: 0;\n    font-family: 'Roboto', sans-serif;\n    background: #1a0b1f;\n    color: white;\n}\nmain {\n    position: absolute;\n    top: 50%; left: 50%;\n    transform: translate(-50%, -50%);\n    z-index: 2;\n}\n.teapot {\n    position: absolute;\n    top: 50%; left: 50%;\n    transform: translate(45%, -50%);\n}\n.footer {\n    position: absolute;\n    bottom: 10%; left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 25px;\n    text-align: center;\n}\n.title {\n    font-size: 50px;\n}\n\n.subtitle {\n    position: absolute;\n    font-size: 35px;\n    left: 25px;\n    font-family: 'Roboto Slab', serif;\n}\na {\n    text-decoration: none;\n    color: #9836ad;\n}\na:hover {\n    color: #ba53ce;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- style.css	(revision 82a1fdea50216cf9042d06ce5b99fa34839f5126)
++++ style.css	(date 1605475535188)
+@@ -11,7 +11,7 @@
+     transform: translate(-50%, -50%);
+     z-index: 2;
+ }
+-.teapot {
++#teapot {
+     position: absolute;
+     top: 50%; left: 50%;
+     transform: translate(45%, -50%);
+Index: script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- script.js	(date 1605475527636)
++++ script.js	(date 1605475527636)
+@@ -0,0 +1,4 @@
++if(document.getElementById('teapot').clicked === true)
++{
++    alert("button was clicked");
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"b23f268f-b2fe-45b2-a99a-d5857f661121\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"HTML File\" />\n        <option value=\"CSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1kLDdYRdCRh77wZyNpJ5SILOFun\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"reference.settingsdialog.project.vagrant\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"b23f268f-b2fe-45b2-a99a-d5857f661121\" name=\"Default Changelist\" comment=\"\" />\n      <created>1605471065961</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1605471065961</updated>\n      <workItem from=\"1605471066989\" duration=\"2076000\" />\n      <workItem from=\"1605473145818\" duration=\"721000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"files\">\n      <created>1605473159787</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1605473159787</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"files\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"files\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"555\" y=\"253\" width=\"800\" height=\"535\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1605473162410\">\n      <screen x=\"0\" y=\"27\" width=\"1920\" height=\"1017\" />\n    </state>\n    <state x=\"555\" y=\"253\" width=\"800\" height=\"535\" key=\"Vcs.Push.Dialog.v2/0.27.1920.1017@0.27.1920.1017\" timestamp=\"1605473162410\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 82a1fdea50216cf9042d06ce5b99fa34839f5126)
++++ .idea/workspace.xml	(date 1605475540432)
+@@ -11,8 +11,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="b23f268f-b2fe-45b2-a99a-d5857f661121" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -24,6 +26,7 @@
+       <list>
+         <option value="HTML File" />
+         <option value="CSS File" />
++        <option value="JavaScript File" />
+       </list>
+     </option>
+   </component>
+@@ -59,7 +62,8 @@
+       <option name="presentableId" value="Default" />
+       <updated>1605471065961</updated>
+       <workItem from="1605471066989" duration="2076000" />
+-      <workItem from="1605473145818" duration="721000" />
++      <workItem from="1605473145818" duration="1108000" />
++      <workItem from="1605475488934" duration="51000" />
+     </task>
+     <task id="LOCAL-00001" summary="files">
+       <created>1605473159787</created>
+@@ -68,7 +72,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1605473159787</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Open Graph">
++      <created>1605473977017</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1605473977017</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -84,15 +95,17 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="files" />
+-    <option name="LAST_COMMIT_MESSAGE" value="files" />
++    <MESSAGE value="Open Graph" />
++    <option name="LAST_COMMIT_MESSAGE" value="Open Graph" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605473162410">
++    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605473982038">
+       <screen x="0" y="27" width="1920" height="1017" />
+     </state>
+-    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017@0.27.1920.1017" timestamp="1605473162410" />
++    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017@0.27.1920.1017" timestamp="1605473982038" />
+   </component>
+ </project>
+\ No newline at end of file
