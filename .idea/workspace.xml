@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23f268f-b2fe-45b2-a99a-d5857f661121" name="Default Changelist" comment="" />
+    <list default="true" id="b23f268f-b2fe-45b2-a99a-d5857f661121" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +26,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kLDdYRdCRh77wZyNpJ5SILOFun" />
   <component name="ProjectViewState">
@@ -44,10 +59,40 @@
       <option name="presentableId" value="Default" />
       <updated>1605471065961</updated>
       <workItem from="1605471066989" duration="2076000" />
+      <workItem from="1605473145818" duration="721000" />
     </task>
+    <task id="LOCAL-00001" summary="files">
+      <created>1605473159787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605473159787</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="files" />
+    <option name="LAST_COMMIT_MESSAGE" value="files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605473162410">
+      <screen x="0" y="27" width="1920" height="1017" />
+    </state>
+    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017@0.27.1920.1017" timestamp="1605473162410" />
   </component>
 </project>
