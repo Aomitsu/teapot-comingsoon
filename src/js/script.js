@@ -36,7 +36,7 @@ function Sound(source, volume, loop)
 
 let teapot_text = document.getElementsByClassName('subtitle')[0];
 let number = 0;
-let teapot_sound = new Sound("teapot_song.mp3", 100, false);
+let teapot_sound = new Sound("src/teapot_song.mp3", 100, false);
 
 teapot_text.addEventListener("click", () => {
     if(number === 4 ){
