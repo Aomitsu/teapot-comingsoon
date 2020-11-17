@@ -12,6 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b23f268f-b2fe-45b2-a99a-d5857f661121" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,7 @@
       <workItem from="1605519340424" duration="214000" />
       <workItem from="1605519580677" duration="973000" />
       <workItem from="1605612539459" duration="80000" />
-      <workItem from="1605614966986" duration="5564000" />
+      <workItem from="1605614966986" duration="5903000" />
     </task>
     <task id="LOCAL-00001" summary="files">
       <created>1605473159787</created>
@@ -141,11 +143,28 @@
       <option name="project" value="LOCAL" />
       <updated>1605618323148</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Mobile">
+      <created>1605630248249</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605630248249</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -169,9 +188,14 @@
     <MESSAGE value="Teapot reorganisation" />
     <MESSAGE value="ok teapot" />
     <MESSAGE value="yes" />
-    <option name="LAST_COMMIT_MESSAGE" value="yes" />
+    <MESSAGE value="Mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="90" width="1720" height="854" key="DiffContextDialog" timestamp="1605630502093">
+      <screen x="0" y="27" width="1920" height="1017" />
+    </state>
+    <state x="100" y="90" width="1720" height="854" key="DiffContextDialog/0.27.1920.1017@0.27.1920.1017" timestamp="1605630502093" />
     <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605618325512">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
