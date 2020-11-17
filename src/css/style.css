@@ -82,6 +82,9 @@ a:hover {
     border-radius: 20px;
     border: 3px var(--main-bg-color);
 }
+.bye-bye{
+    color: var(--second-bg-color);
+}
 @media screen and (max-width: 640px) {
     .real-footer .rf-item{
         flex: auto;
