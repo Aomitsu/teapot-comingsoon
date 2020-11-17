@@ -48,5 +48,4 @@ teapot_text.addEventListener("click", () => {
         teapot_sound.start()
     }
     number += 1;
-    console.log(number)
 });
