@@ -82,23 +82,52 @@ a:hover {
     border-radius: 20px;
     border: 3px var(--main-bg-color);
 }
-@media screen and (max-width: 640px) {
-    .real-footer .rf-item{
+@media only screen and (max-device-width: 800px) {
+    .real-footer .rf-item {
         flex: auto;
         flex-direction: column;
         width: 100%;
         padding: 15px;
     }
-    .real-footer{
-        height: 65%; width: 100%;
-        bottom: -100%;
+
+    .real-footer {
+        height: 900px;
+        width: 100%;
+        bottom: -900px;
         text-align: center;
+        font-size: 35px;
     }
-    .real-footer div .row .bar{
+
+    .real-footer div .row .bar {
         width: 200%;
+        font-size: 35px;
+    }
+
+    .title {
+        font-size: 70px;
+    }
+    .subtitle {
+        position: absolute;
+        font-size: 40px;
+        left: 25px;
+
+    }
+    .teapot {
+        transform: translate(90%, -50%);
+    }
+    .footer {
+        font-size: 50px;
+    }
+    main {
+        transform: translate(-50%, -50%) scale(2);
+    }
+    .teapot {
+        position: absolute;
+        top: 35%; left: 50%;
+        transform: translate(180%, -50%) scale(2);
     }
 }
-@media screen and (min-width: 640px) {
+@media only screen and (min-device-width: 800px) {
     .real-footer .rf-item{
         flex: auto;
         width: 100px;
