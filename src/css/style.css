@@ -90,8 +90,8 @@ a:hover {
         padding: 15px;
     }
     .real-footer{
-        height: 440px; width: 100%;
-        bottom: -440px;
+        height: 460px; width: 100%;
+        bottom: -460px;
         text-align: center;
     }
     .real-footer div .row .bar{
