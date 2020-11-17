@@ -1,20 +1,25 @@
+:root {
+    --main-bg-color: #1a0b1f;
+    --second-bg-color: #361d42;
+}
+
 html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background: #1a0b1f;
+    background: var(--main-bg-color);
     color: white;
 }
 main {
     position: absolute;
-    top: 50%; left: 50%;
+    top: 35%; left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
 }
 .teapot {
     position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(45%, -50%);
+    top: 35%; left: 50%;
+    transform: translate(50%, -50%);
 }
 .footer {
     position: absolute;
@@ -40,3 +45,71 @@ a {
 a:hover {
     color: #ba53ce;
 }
+.real-footer{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--second-bg-color);
+
+}
+.real-footer div p{
+    font-family: 'Roboto Slab', serif;
+}
+.real-footer div .row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    font-size: 15px;
+}
+.real-footer div .row a{
+    color: #00a8a2;
+}
+.real-footer div .row a:hover{
+    color: #56fff8;
+}
+* {
+    scrollbar-width: 5px;
+    scrollbar-color: var(--second-bg-color);
+}
+*::-webkit-scrollbar {
+    width: 5px;
+}
+*::-webkit-scrollbar-track {
+    background: var(--main-bg-color);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: var(--second-bg-color);
+    border-radius: 20px;
+    border: 3px var(--main-bg-color);
+}
+@media screen and (max-width: 640px) {
+    .real-footer .rf-item{
+        flex: auto;
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+    }
+    .real-footer{
+        height: 65%; width: 100%;
+        bottom: -100%;
+        text-align: center;
+    }
+    .real-footer div .row .bar{
+        width: 200%;
+    }
+}
+@media screen and (min-width: 640px) {
+    .real-footer .rf-item{
+        flex: auto;
+        width: 100px;
+        padding: 15px;
+    }
+    .real-footer{
+        height: 200px; width: 100%;
+        bottom: -200px;
+    }
+    .real-footer div .row .bar{
+        width: 200%;
+    }
+}
+

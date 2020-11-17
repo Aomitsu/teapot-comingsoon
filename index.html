@@ -23,8 +23,52 @@
     </main>
     <footer>
         <span class="footer">Coming Soon - <a href="https://discord.gg/eVFzCQGgmS">Discord</a></span>
+        <div class="real-footer">
+            <div class="rf-item">
+                <h2>About echapp.com</h2>
+                <p>For now, nothing.</p>
+            </div>
+            <div class="rf-item">
+                <h2>Links</h2>
+                <div class="row">
+                    <div class="bar">
+                        <a href="https://git.echapp.com/">Git server</a><br />
+                        <a href="https://pvpzone.fr/">My first website</a>
+                    </div>
+                    <div class="bar">
+                        <a href="https://discord.gg/eVFzCQGgmS">Discord</a><br />
+                        <a href="https://twitter.com/max_au3">Twitter</a> <br />
+                        <a href="https://github.com/Aomitsu">Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="rf-item">
+                <h2>Contact</h2>
+                <p>
+                    contact@echapp.com<br />
+                    +33 7 56 87 69 92
+                </p>
+            </div>
+        </div>
     </footer>
     <object class="teapot" type="image/svg+xml" data="src/imgs/teapot.svg" width="100" height="100"></object>
 </body>
 <script src="src/js/script.js"></script>
+<!-- Matomo -->
+<script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setCookieDomain", "*.echap.com"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//stats.pvpzone.fr/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '2']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<noscript><p><img src="//stats.pvpzone.fr/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
 </html>

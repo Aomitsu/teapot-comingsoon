@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>418 - I'm a teapot</title>
+    <title>404 - I'm a coffee maker</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css">
 
     <!-- Open Graph -->
     <meta property="og:title" content="404. Not Found" />
@@ -24,6 +24,23 @@
 <footer>
     <span class="footer">Coming Soon - <a href="https://discord.gg/bdmFCDJ">Discord</a></span>
 </footer>
-<object class="teapot" type="image/svg+xml" data="src/imgs/coffee.svg" width="100" height="100"></object>
+<object class="teapot" type="image/svg+xml" data="/src/imgs/coffee.svg" width="100" height="100"></object>
 </body>
+<!-- Matomo -->
+<script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setCookieDomain", "*.echap.com"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//stats.pvpzone.fr/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '2']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<noscript><p><img src="//stats.pvpzone.fr/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
 </html>
