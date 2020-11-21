@@ -11,10 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23f268f-b2fe-45b2-a99a-d5857f661121" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/umami.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -78,7 +78,10 @@
       <workItem from="1605519340424" duration="214000" />
       <workItem from="1605519580677" duration="973000" />
       <workItem from="1605612539459" duration="80000" />
-      <workItem from="1605614966986" duration="5903000" />
+      <workItem from="1605614966986" duration="6884000" />
+      <workItem from="1605644135598" duration="1626000" />
+      <workItem from="1605694660119" duration="686000" />
+      <workItem from="1605976491546" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="files">
       <created>1605473159787</created>
@@ -150,7 +153,49 @@
       <option name="project" value="LOCAL" />
       <updated>1605630248249</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Mobile">
+      <created>1605630578861</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605630578861</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Style">
+      <created>1605630618647</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605630618647</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Style">
+      <created>1605631823560</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605631823560</updated>
+    </task>
+    <task id="LOCAL-00014" summary="The enemy will be less of an enemy if he is a friend.">
+      <created>1605644490321</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605644490321</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Mobile">
+      <created>1605646358194</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605646358194</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Meta Desc">
+      <created>1605694734456</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605694734456</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,21 +233,24 @@
     <MESSAGE value="Teapot reorganisation" />
     <MESSAGE value="ok teapot" />
     <MESSAGE value="yes" />
+    <MESSAGE value="Style" />
+    <MESSAGE value="The enemy will be less of an enemy if he is a friend." />
     <MESSAGE value="Mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobile" />
+    <MESSAGE value="Meta Desc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meta Desc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="90" width="1720" height="854" key="DiffContextDialog" timestamp="1605630502093">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
     <state x="100" y="90" width="1720" height="854" key="DiffContextDialog/0.27.1920.1017@0.27.1920.1017" timestamp="1605630502093" />
-    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605618325512">
+    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1605694739503">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017@0.27.1920.1017" timestamp="1605618325512" />
-    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605476177878">
+    <state x="555" y="253" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1017@0.27.1920.1017" timestamp="1605694739503" />
+    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605976500881">
       <screen x="0" y="27" width="1920" height="1017" />
     </state>
-    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1017@0.27.1920.1017" timestamp="1605476177878" />
+    <state x="741" y="432" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1017@0.27.1920.1017" timestamp="1605976500881" />
   </component>
 </project>
